@@ -1,0 +1,110 @@
+
+
+h1{
+    font-family: "Cairo", sans-serif;
+
+}
+    
+
+
+
+.foo {
+    width: 400px;
+    margin: 20px;            /* هامش */
+    box-shadow: 1px 1px 10px wheat; /* ظل */
+    text-align: center;      /* توسيط النص داخل العنصر */
+    padding: 20px;           /* إضافة مسافة داخلية */
+    background-color: #ffffff; /* لون خلفية */
+    color: rgb(19, 0, 0);            /* لون النص */
+    border-radius: 8px;      /* زوايا مستديرة */
+}
+.foo input{
+    width: 400px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    height: 10px;
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    box-shadow: 1px 1px 10px wheat; /* ظل */
+
+
+}
+img{
+    width: 400px;
+}
+a{
+border: none;
+text-decoration: none;
+font-size: 20px;
+color: blue;
+font-family: "Cairo", sans-serif;
+font-weight: bold;
+font-size: 25px;
+
+}
+a:hover{
+    background-color: turquoise;
+    font-size: xx-large;
+    font-family: "Cairo", sans-serif;
+    color: black;
+
+}
+label{
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #e4fb1a;
+    cursor: pointer;
+    font-family: "Cairo", sans-serif;
+    
+}
+label:hover{
+    background-color: yellow;
+    font-size: 18px;}
+
+button{
+border: none;
+padding: 10px;
+width: 15%;
+font-weight: bold;
+font-size: 15px;
+background-color: #1ac151;
+cursor: pointer;
+font-family: "Cairo", sans-serif;
+
+}
+button:hover{
+    background-color: #e4fb1a;
+    font-size: 25px;
+    border: 0cqmax;
+
+}
+.mo{
+    font: 30px;
+    color: black;
+    background-color: violet;
+}
+.card{
+    float: right;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Jaro", serif;
+    font-family: "Cairo", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  
+
+
+}

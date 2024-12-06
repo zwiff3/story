@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>save</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- this is link for font-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+<title></title>
+</head>
+<body>
+       <!-- this is form uplode-->
+
+   <div class = "foo">
+      <img src="download.jpg" alt="logo">
+   <form action="insert.php" method="post" enctype="multipart/form-data">
+
+      <h1>تسوق الان مع نونو</h1>
+   <!-- حقول الادخال -->
+
+     <input type="text"  name="fname">
+     <br>
+     <input type="text" name= "price" >
+     <br>
+     <input type="file" id="file" name="image"   style="display: none;">    <!-- الكود ده بيحذف علامه رفع ملف-->
+
+     <label for="file">اختيار صورةالمنتج</label>
+     <button type="submit" name="send">رفع المنتج</button>
+     <br>     <br>
+     <br>
+
+
+     <a href="prod.php">أعرض كل المنتجات</a>
+</form>
+    
+
+   </div>
+
+<p>هذا الموقع مخصص لبيع المنتجات اونلاين </p>
+</body>
+</html>
